@@ -1,0 +1,156 @@
+.cores {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: "main";
+    max-width: 1350px;
+    min-width: 200px;
+}
+
+.titulo {
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #730cb4;
+}
+
+div {
+    padding: 25px 50px 20px;
+    display: grid;
+    place-content: center;
+    background: black
+}
+
+.task {
+
+    font-size: 75px;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    background-image: var(--gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section {
+    border-bottom: 4px solid white;
+
+    border-image: var(--gradiente) 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gradiente: linear-gradient(to right, rgb(149 114 252), rgb(67 231 173), rgb(226 212 92))
+}
+
+.greys {
+    width: 580px;
+    border-radius: 8px;
+    float: left;
+    margin: 12px;
+    margin-left: 58px;
+}
+
+.tituloHome {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.conteudo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+main {
+    background-color: white;
+}
+
+.tabelaImg {
+    width: 150px;
+}
+
+.textList {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    font-style: oblique;
+    text-align: center;
+    border-color: black purple
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.isso{
+    margin-top: 150px;
+}
+
+.esse{
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------------------ */
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    border: 0px solid blue;
+    display: grid;
+    grid-template-areas: "main";
+}
+
+@media (max-width: 664px){
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+        border: 0px solid blue;
+        display: grid;
+        grid-template-areas: "main";
+    }
+    .greys{
+        width: 510px;
+    }
+}
+
+@media (max-width: 573px){
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+        border: 0px solid blue;
+        display: grid;
+        grid-template-areas: "main";
+    }
+    .greys{
+        width: 340px;
+    }
+}
